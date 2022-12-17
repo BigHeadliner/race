@@ -16,6 +16,10 @@ html {
 a {
     color: inherit;
     text-decoration: none;
+} 
+ 
+li{ 
+    list-style: none;
 }
 
 .big-container {
@@ -352,4 +356,148 @@ body {
 .evo-white__video-link span{ 
     display: block; 
     color:#FFF;
+}    
+ 
+.blog{ 
+   margin-bottom: 100px; 
 } 
+ 
+.blog__title{ 
+   font-weight: 300; 
+   font-size: 32px; 
+   text-transform: uppercase; 
+   margin-bottom: 30px;
+} 
+ 
+.blog__item-img{ 
+    margin-bottom: 20px;
+} 
+ 
+.blog__item-title{ 
+    font-weight: 400; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+    min-height: 46px;
+} 
+ 
+.blog__item-text{ 
+    margin-bottom: 10px;
+} 
+ 
+.blog__item-link{ 
+    font-size: 12px; 
+    color: #363636;
+}  
+ 
+.blog__slider{ 
+  position: relative; 
+  padding-top: 50px; 
+  margin-bottom: 100px;
+}
+ 
+.blog-button{ 
+  position:absolute; 
+  top:0; 
+  cursor: pointer; 
+  left: 50%;
+} 
+ 
+ .swiper-button-left{     
+ transform:translateX(-41px) 
+} 
+ 
+.swiper-button-right{  
+    transform:translateX(8px) 
+}  
+ 
+.blog__guote{ 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 0 20px;
+} 
+ 
+.blog__guote-box{ 
+    max-width: 434px;
+} 
+ 
+.blockquote{ 
+    margin-bottom: 30px;
+} 
+ 
+.blockquote__name{ 
+   font-weight: 700; 
+   margin-bottom: 10px;
+} 
+ 
+.blockquote__name span{ 
+   display: block;  
+   font-size: 12px; 
+   color: #9F6B08; 
+   margin-bottom: 3px;
+} 
+ 
+.blockquote__text{ 
+    font-style: italic;
+}  
+
+.footer{ 
+  padding: 100px 0 80px; 
+  background-color: #363636; 
+  color:#FFF;
+} 
+ 
+.footer__title{ 
+    text-transform: uppercase; 
+    font-size: 32px; 
+    font-weight: 300; 
+    margin-bottom: 50px;
+}  
+ 
+.footer__top{ 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 0 20px;
+}
+ 
+.footer__info-item{ 
+    margin-bottom: 40px;
+} 
+ 
+.footer__info-item dt, 
+.footer__address-title { 
+    font-size: 16px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+} 
+ 
+.footer__info-item dd{ 
+   margin-bottom: 10px;
+} 
+  
+.social-list {
+    display: flex; 
+    gap: 0 20px; 
+    align-items: center;
+} 
+
+.footer__address{ 
+    max-width: 462px;
+}   
+ 
+#map{ 
+  height: 250px;  
+}
+  
+.footer__address-text{ 
+    font-size: 16px; 
+    margin-bottom: 20px;
+} 
+ 
+.footer__bottom{  
+    margin-top: 35px; 
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+}
