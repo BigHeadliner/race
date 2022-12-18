@@ -9,7 +9,13 @@ html {
  
 html{
     scroll-behavior: smooth;
-}
+} 
+ 
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
 
 *,
 *::before,
