@@ -11,14 +11,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap"rel="stylesheet">  
   <link rel="stylesheet" href="swiper-package/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
   <header class="header">
     <div class="big-container">
-      <nav class="nav">
-        <ul class="menu-list menu-left">
+      <nav class="nav">  
+        <button  class="menu-btn" id="menu-btn"> 
+          <span></span>
+       </button>
+        <ul class="menu-list menu-left" id="menu-left">
           <li class="menu-item">
             <a class="menu-link" href="#">Про гонку</a>
           </li>
@@ -35,7 +39,7 @@
         <a class="logo" href="#">
           <img class="log-img" src="images/logo.svg" alt="logo">
         </a>
-        <ul class="menu-list menu-right">
+        <ul class="menu-list menu-right" id="menu-right">
           <li class="menu-item">
             <a class="menu-link" href="#">Купити квитки</a>
           </li>
@@ -62,13 +66,13 @@
             <span> 3-6 листопада </span>
           </h2>
           <p class="promo-text">автодром Портімао, Португалія</p>
-          <a class="promo__arrow" href="#">
+          <a class="promo__arrow" href="#footer">
             <img src="images/arrow.svg" alt="arrow">
           </a>
         </div>
       </div>
     </section> 
-    <section class="info">  
+    <!-- <section class="info">  
       <div class="container"> 
         <div class="info__part info__part--first"> 
           <h3 class="info__title">СУПЕР СВІТОВИЙ ФІНАЛ</h3> 
@@ -387,7 +391,7 @@
     </section>
   </main> 
    
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
   
       <h3 class="footer__title">
@@ -456,7 +460,7 @@
          <a class="footer__bottom-link" href="#">Політика конфіденційності</a>
       </div> 
 
-  </footer>
+  </footer>  -->
 
  
   <script

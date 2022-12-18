@@ -5,6 +5,10 @@
 
 html {
     box-sizing: border-box;
+} 
+ 
+html{
+    scroll-behavior: smooth;
 }
 
 *,
@@ -55,6 +59,10 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+}
+ 
+.menu-btn{  
+    display: none;
 }
 
 .menu-list {

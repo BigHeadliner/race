@@ -1,5 +1,6 @@
- 
-  
+
+   
+
   const swiper = new Swiper('.swiper', {
   
     loop: true, 
@@ -149,3 +150,22 @@ function initMap() {
 }
 
 window.initMap = initMap;
+ 
+
+const hamburger = document.getElementById('menu-btn')
+const headerMenuLeft = document.getElementById('menu-left') 
+const headerMenuRight = document.getElementById('menu-right')
+const menuLinks = document.querySelectorAll('.menu-link') 
+
+
+hamburger.addEventListener('click', () => { 
+    headerMenuLeft.classList.toggle('menu-left--active')  
+    headerMenuRight.classList.toggle('menu-right--active')   
+})
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    headerMenuLeft.classList.remove('menu-left--active')  
+    headerMenuRight.classList.remove('menu-right--active') 
+  })
+})  
