@@ -37,7 +37,8 @@ li{
     max-width: 920px;
     padding: 0 10px;
     margin: 0 auto;
-    border: 1px solid transparent;
+    border: 1px solid transparent; 
+    border: 1px solid green;
 }
 
 body {
@@ -177,7 +178,8 @@ body {
 }
 
 .info__content {
-    flex-basis: 415px;
+    /* flex-basis: 415px; */
+     max-width: 415px; 
 }
 
 .info__part--second .info__text {
