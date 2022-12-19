@@ -44,7 +44,7 @@ li{
     padding: 0 10px;
     margin: 0 auto;
     border: 1px solid transparent; 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 body {
