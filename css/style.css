@@ -372,7 +372,11 @@ body {
 .evo-white__video-link span{ 
     display: block; 
     color:#FFF;
-}    
+}     
+ 
+.evo-white__video-img{ 
+    margin: 0 auto;
+}
  
 .blog{ 
    margin-bottom: 100px; 
