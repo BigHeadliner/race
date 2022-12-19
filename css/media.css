@@ -135,6 +135,22 @@
   
   .info__part--third{ 
     order:3;
+  } 
+   
+  /* blog */
+ 
+  .blog__item-img { 
+    margin: 0 auto 20px;
+  } 
+   
+  .blog__item-title{ 
+    text-align: center;
+  } 
+   
+  .blog__item-link {  
+    display: block;
+    margin: 0 auto;  
+    text-align: center;
   }
 
 } 
@@ -165,6 +181,31 @@
      
     .evo-white__video {
         margin-top: 50px; 
+    } 
+      
+    /* blog  */ 
+     
+    .blog__slider {
+        margin-bottom: 50px;
+    }
+
+    .blog__guote {  
+        flex-wrap: wrap;  
+        justify-content: center;
+        gap: initial;
+    } 
+     
+    .blog__guote-box,
+    .blog__guote-img{ 
+        margin: 15px;
+    } 
+     
+    .blog__guote-box {
+        max-width: 100%;
+    } 
+     
+    .blockquote__text {
+        margin-top: 10px;
     }
 
  } 
@@ -271,6 +312,13 @@
     .evo-descr-item{ 
         margin: 17px; 
         border: 1px solid fuchsia;
+    }  
+     
+    /* blog */
+     
+    .blog__slider {
+        position: relative;
+        padding-top: 17px; 
     }
 
 }
@@ -335,11 +383,32 @@
         font-size: 25px; 
     }
  
-    //----  fancybox -----//
+    /*  fancybox */
 
     .fancybox-slide { 
         padding: 10px;
-    }  
+    }   
+     
+    /* blog */
+
+    .blog__title {
+        margin-bottom: 15px;
+    }   
+     
+    .slick-arrow {
+        position: absolute;
+        top: -65px;
+        right: 0;
+    } 
+     
+    .slick-prev {
+        right: 40px;
+    } 
+     
+    .blog__guote-box,  
+    .blog__guote-img {
+        margin: 5px 15px;
+    }
 
 } 
  
@@ -442,6 +511,38 @@
     .track__title {
         padding-top: 19px;
         padding-bottom: 17px;
+    }  
+     
+    /* blog */
+     
+    .blog__title {
+        margin-bottom: 0;
+    } 
+     
+    .slick-arrow {
+        position: absolute;
+        top: -49px;
+        right: 0;
+    }  
+     
+    .slick-prev {
+        right: 40px;
+    }
+     
+    .blog__item-title {
+        margin-bottom: 15px;
+    } 
+     
+    .blog__item-text {
+        margin-bottom: 15px;
+    } 
+     
+    .blog__slider {
+        margin-bottom: 19px;
+    } 
+     
+    .blog__guote-img {
+        margin: 0 15px 5px 15px;
     }
 
 } 
@@ -509,6 +610,12 @@
      
     .info__part--second{ 
         overflow: hidden;
+    }  
+     
+    /* blog */
+     
+    .blockquote {
+        margin-bottom: 15px;
     }
 
  } 
@@ -542,7 +649,17 @@
      
     .evo-white__video {
         height: 185px;
+    } 
+     
+    /* blog */ 
+     
+    .blog__item-img {
+        margin: 0 auto 15px;
     }
+  
+    .blog__item-title {
+        margin-bottom: 14px;
+    } 
 
 
  } 

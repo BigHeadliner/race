@@ -1,18 +1,24 @@
 
    
 
-  const swiper = new Swiper('.swiper', {
-  
-    loop: true, 
-    slidesPerView: 2,
-    spaceBetween: 20,
-  
-    navigation: {
-      nextEl: '.swiper-button-right',
-      prevEl: '.swiper-button-left',
-    },
-  
-  }); 
+  $('.swiper-wrapper').slick({   
+     
+    prevArrow:'<button type="button" class="slick-prev"><img src="images/arrow-left.svg" alt=""></button>', 
+    nextArrow:'<button type="button" class="slick-next"><img src="images/arrow-right.svg" alt=""></button>', 
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1, 
+     
+    responsive: [
+        {
+          breakpoint: 916,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1, 
+          }
+        }, 
+    ]
+  });
    
    
   let map;

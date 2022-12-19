@@ -387,7 +387,11 @@ body {
    font-size: 32px; 
    text-transform: uppercase; 
    margin-bottom: 30px;
-} 
+}  
+ 
+.blog__item{ 
+    border: 1px solid transparent;  
+}
  
 .blog__item-img{ 
     margin-bottom: 20px;
@@ -429,7 +433,24 @@ body {
  
 .swiper-button-right{  
     transform:translateX(8px) 
+}     
+  
+.swiper-wrapper{ 
+    border: 1px solid transparent;
 }  
+
+.slick-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -85px;
+    right: 0;
+} 
+ 
+.slick-prev {
+    right: 40px;
+}
  
 .blog__guote{ 
     display: flex; 
